@@ -13,7 +13,7 @@ int sub(int n1, int n2){
 int mult(int n1, int n2){ 
     return n1 * n2 ;
 }
-int div(int n1, int n2){
+float div(int n1, int n2){
     if (n1 == 0 || n2 == 0)
     {
       printf("Erro");
@@ -37,7 +37,7 @@ int main(){
     int multiplicacao= mult(n1,n2);
     printf("A multiplicação dos dois valores é: %d\n", multiplicacao);
 
-    int divisao = div(n1,n2);
+    float divisao = div(n1,n2);
     printf("A divisão dos dois valores é: %2.f\n", divisao);
 
     return 0;
